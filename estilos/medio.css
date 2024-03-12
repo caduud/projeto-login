@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    body{
+        background-image: linear-gradient(to top, #53aaa7, #5f2c82);
+    }
+    
+    main{
+        display: flex;
+        height: 300px;
+        width: 80vw;
+    }
+    
+    main > div#lado1{
+        width: 40vw;
+        background-size: cover;
+        height: 300px;
+        border-radius:20px 0px 0px 20px ;
+    }
+
+    div#lado2{
+        width: 85vw;
+        height: 30vh;
+    }
+    
+    div#lado2 > div > input{
+        width: 90%;
+    }
+}
